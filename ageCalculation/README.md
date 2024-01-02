@@ -1,6 +1,7 @@
 # 🚀 나이 계산 프로그램 만들기
-나이 계산하기 버튼을 생성하고, 클릭 시 자바스크립트가 작동되는 프로그램을 생성합니다. 
-![Program Image](img/image3.png)
+나이 계산하기 버튼을 생성하고, 클릭 시 자바스크립트가 작동되는 프로그램을 생성합니다.  <br>
+<br>
+<img src="img/image3.png" width="450" height="280"/>
 
 ## 🔑 첫 번째 js 코드 
 버튼을 클릭했을 때, onclick에 설정한 `calc` 함수가 실행되고, 기본으로 지정한 올해 년도와 태어난 년도를 확인하여 현재 나이를 계산하여 html의 result id 태그에 데이터를 삽입합니다. 
@@ -23,18 +24,13 @@ function calc() {
 <br>
 
 ### 💻 결과화면
-- `나이 계산하기 버튼 클릭 전 웹페이지 화면` <br>
-  계산하기 버튼 밑에 결과값 표시 텍스트가 배치되어있습니다.
-  ![UI Image](img/img.png) 
+- `나이 계산하기 버튼 클릭 전 웹페이지 화면` / `나이 계산하기 버튼 클릭 후 웹페이지 화면` <br>
+  계산하기 버튼 밑에 결과값 표시 텍스트가 배치되어있고, 나이 계산하기 버튼 클릭 시 결과값 표시 텍스트가 현재 나이로 계산되어 출력됩니다. <br>
+  <br>
+  <img src="img/img.png" width="450" height="280"/>
+  <img src="img/img2.png" width="450" height="280"/>
 
 <br></br>
-
-- `나이 계산하기 버튼 클릭 후 웹페이지 화면` <br>
-  결과값 표시 텍스트가 현재 나이로 계산되어 출력됩니다. 
-  ![UI Image](img/img2.png) 
-
-<br></br>
-
 
 ## 🔑 두 번째 js 코드 
 birthYear 변수와 currentYear에 할당했던 값을 삭제한 뒤 prompt( ) 함수를 지정하고 저장합니다. (사용자 입력값으로 현재 나이를 계산합니다.)
@@ -57,18 +53,14 @@ function calc() {
 <br>
 
 ### 💻 결과화면
-- `현재 년도를 입력하는 웹페이지 화면` <br>
-  ![UI Image](img/image.png) 
-
-<br></br>
-
-- `태어난 년도를 입력하는 웹페이지 화면` <br>
-  ![UI Image](img/image2.png)
+- `현재 년도를 입력하는 웹페이지 화면` / `태어난 년도를 입력하는 웹페이지 화면` <br>
+  <br>
+  <img src="img/image.png" width="450" height="280"/><img src="img/image2.png" width="450" height="280"/>
 
 <br></br>
 
 - `올해 나이가 계산된 웹페이지 화면` <br>
-  태어난 년도와 현재 년도를 확인하여 올해 나이를 계산하여 페이지에 출력합니다.
-  ![UI Image](img/image3.png)
-
+  태어난 년도와 현재 년도를 확인하여 올해 나이를 계산하여 페이지에 출력합니다.<br>
+  <br>
+  <img src="img/image3.png" width="450" height="280"/>
 <br></br>
