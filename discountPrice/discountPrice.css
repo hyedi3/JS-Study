@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    background-color: #fff;
+  }
+
+/* body 전체 컨테이너 속성 값 */ 
+.container {
+    width: 100vw;
+    height: 100vh;
+  
+    display: flex;     
+    flex-direction: column;   /* 아이템 요소 방향 세로(수직정렬) */
+    align-items: center;   
+    font-family: 'Do Hyeon', sans-serif;   /*구글 폰트 적용*/
+  }
+
+/* header 클래스 속성 값 */
+.header {
+    width: 90%;
+    height: 10%;
+
+    display: flex;
+    flex-direction: row;    /* 아이템 요소들 가로(수평) 정렬 */
+    align-items: center;    /* 아이템 요소 상하 위치를 가운데로 배치 */
+
+    font-size: 30px;
+    font-weight: bold;
+    color: #C0392B;
+}
+
+/* leftBox와 rightBox를 묶는 전체 컨테이너 */ 
+.mainContainer { 
+    width: 90%;
+    height: 38%;
+    margin-bottom: 3vh;
+
+    display: flex;
+    flex-direction: row;    /* 아이템 요소들 가로(수평) 정렬 */
+    align-items: center;    /* 아이템 요소 상하 위치를 가운데로 배치 */
+    justify-content: space-between;  /* 아이템들의 “사이(between)”에 균일한 간격 생성 */
+
+}
+
+/* 왼쪽 컨테이너 클래스 속성 */
+.leftBox {
+    width: 48%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;     /* 아이템 요소들 세로(수직) 정렬 */
+}
+
+.leftBox img {
+    width: 100%;            /* leftBox 클래스와 동일한 이미지 너비로 지정 */
+    height: 100%;           /* leftBox 클래스와 동일한 이미지 높이로 지정 */
+    
+    display: flex;
+    flex-direction: column;     /* 아이템 요소들 세로(수직) 정렬 */
+}
+
+/* 오른쪽 컨테이너 클래스 속성*/
+.rightBox {
+    width: 48%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;    /* 아이템 요소 좌우 위치를 가운데로 정렬 */
+    align-items: center;        /* 아이템 요소 상하 위치를 가운데로 배치 */
+    flex-direction: column;     /* 아이템 요소들 세로(수직) 정렬 */
+}
+
+.currentPrice {
+    width: 100%;
+    height: 15%;
+    
+    display: flex;
+    flex-direction: row;            /* 아이템 요소들 가로(수평) 정렬 */
+    justify-content: center;        /* 아이템 요소 좌우 위치를 가운데로 배치 */
+    align-items: center;            /* 아이템 요소 상하 위치를 가운데로 배치 */
+}
+
+.sale {
+    width: 100%;
+    height: 15%;
+    
+    display: flex;
+    flex-direction: row;            /* 아이템 요소들 가로(수평) 정렬 */
+    justify-content: center;        /* 아이템 요소 좌우 위치를 가운데로 배치 */
+    align-items: center;            /* 아이템 요소 상하 위치를 가운데로 배치 */
+}
+
+.frontInput {
+    width: 15%;
+    margin: 0 5px;
+
+    display: flex;
+    align-items: center;           /* 아이템 요소 상하 위치를 가운데로 배치 */
+
+    color: #a0a0a0;
+    font-size: 18px;
+}
+
+input{
+    width: 30%;
+    height: 35%;
+
+    display: flex;
+    align-items: center;           /* 아이템 요소 상하 위치를 가운데로 배치 */
+    justify-content: center;       /* 아이템 요소 좌우 위치를 가운데로 배치 */
+
+}
+
+.backInput {
+    width: 10%;
+    margin: 0 5px;
+    
+    display: flex;
+    align-items: center;           /* 아이템 요소 상하 위치를 가운데로 배치 */
+
+    color: #a0a0a0;
+    font-size: 18px;
+}
+
+.footer{
+    width: 90%;
+    height: 20%;
+
+    display: flex;
+    flex-direction: row;             /* 아이템 요소들 가로(수평) 정렬 */
+    align-items: center;             /* 아이템 요소 상하 위치를 가운데로 배치 */
+    justify-content: space-between;  /* 아이템들의 “사이(between)”에 균일한 간격 생성 */
+}
+
+.calcResult {
+    width: 48%;
+    height: 15%;
+    
+    display: flex;
+    justify-content: center;         /* 아이템 요소 좌우 위치를 가운데로 배치 */
+    align-items: center;             /* 아이템 요소 상하 위치를 가운데로 배치 */
+
+    font-size: 15px;
+}
+
+.showResult {
+    width: 48%;
+    height: 10%;
+    
+    display: flex;
+    justify-content: center;         /* 아이템 요소 좌우 위치를 가운데로 배치 */
+    align-items: center;             /* 아이템 요소 상하 위치를 가운데로 배치 */
+
+    font-size: 20px;
+    color: #868e96;
+}
