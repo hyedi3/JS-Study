@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    background-color: #fff;
+  }
+
+/* body 전체 컨테이너 속성 값 */ 
+.container {
+    width: 100vw;
+    height: 100vh;
+  
+    display: flex;     
+    flex-direction: column;   /* 아이템 요소 방향 세로(수직정렬) */
+    align-items: center;   
+    font-family: 'Do Hyeon', sans-serif;   /*구글 폰트 적용*/
+  }
+
+/* header 클래스 속성 값 */
+.header {
+    width: 90%;
+    height: 10%;
+
+    display: flex;
+    flex-direction: row;    /* 아이템 요소들 가로(수평) 정렬 */
+    align-items: center;    /* 아이템 요소 상하 위치를 가운데로 배치 */
+
+    font-size: 30px;
+    font-weight: bold;
+    color: #C0392B;
+}
+
+/* leftBox와 rightBox를 묶는 전체 컨테이너 */ 
+.mainContainer { 
+    width: 90%;
+    height: 38%;
+    margin-bottom: 3vh;
+
+    display: flex;
+    flex-direction: row;    /* 아이템 요소들 가로(수평) 정렬 */
+    align-items: center;    /* 아이템 요소 상하 위치를 가운데로 배치 */
+    justify-content: space-between;  /* 아이템들의 “사이(between)”에 균일한 간격 생성 */
+
+}
+
+/* 왼쪽 컨테이너 클래스 속성 */
+.leftBox {
+    width: 48%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;     /* 아이템 요소들 세로(수직) 정렬 */
+}
+
+/* 왼쪽 컨테이너에 배치할 이미지 속성 */
+.leftBox img {
+    width: 100%;            /* leftBox 클래스와 동일한 이미지 너비로 지정 */
+    height: 100%;           /* leftBox 클래스와 동일한 이미지 높이로 지정 */
+    
+    display: flex;
+    flex-direction: column;     /* 아이템 요소들 세로(수직) 정렬 */
+}
+
+/* 오른쪽 컨테이너 클래스 속성 */
+.rightBox {
+    width: 48%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;    /* 아이템 요소 좌우 위치를 가운데로 정렬 */
+    align-items: center;        /* 아이템 요소 상하 위치를 가운데로 배치 */
+    flex-direction: column;     /* 아이템 요소들 세로(수직) 정렬 */
+}
+
+/* 원래 가격을 입력하는 란의 부모 컨테이너 */
+.currentPrice {
+    width: 100%;
+    height: 15%;
+    
+    display: flex;
+    flex-direction: row;            /* 아이템 요소들 가로(수평) 정렬 */
+    justify-content: center;        /* 아이템 요소 좌우 위치를 가운데로 배치 */
+    align-items: center;            /* 아이템 요소 상하 위치를 가운데로 배치 */
+}
+
+/* 할인 가격을 입력하는 란의 부모 컨테이너 */
+.sale {
+    width: 100%;
+    height: 15%;
+    
+    display: flex;
+    flex-direction: row;            /* 아이템 요소들 가로(수평) 정렬 */
+    justify-content: center;        /* 아이템 요소 좌우 위치를 가운데로 배치 */
+    align-items: center;            /* 아이템 요소 상하 위치를 가운데로 배치 */
+}
+
+/* input 란 앞의 텍스트를 감싸는 클래스 속성 */
+.frontInput {
+    width: 15%;
+    margin: 0 5px;
+
+    display: flex;
+    align-items: center;           /* 아이템 요소 상하 위치를 가운데로 배치 */
+
+    color: #a0a0a0;
+    font-size: 18px;
+}
+
+/* input에 대한 속성 */
+input{
+    width: 30%;
+    height: 35%;
+
+    display: flex;
+    align-items: center;           /* 아이템 요소 상하 위치를 가운데로 배치 */
+    justify-content: center;       /* 아이템 요소 좌우 위치를 가운데로 배치 */
+
+}
+
+/* input 란 뒤의 텍스트를 감싸는 클래스 속성 */
+.backInput {
+    width: 10%;
+    margin: 0 5px;
+    
+    display: flex;
+    align-items: center;           /* 아이템 요소 상하 위치를 가운데로 배치 */
+
+    color: #a0a0a0;
+    font-size: 18px;
+}
+
+/* 하단의 calcResult 및 showResult 클래스를 묶는 부모 컨테이너 */
+.footer{
+    width: 90%;
+    height: 20%;
+
+    display: flex;
+    flex-direction: row;             /* 아이템 요소들 가로(수평) 정렬 */
+    align-items: center;             /* 아이템 요소 상하 위치를 가운데로 배치 */
+    justify-content: space-between;  /* 아이템들의 “사이(between)”에 균일한 간격 생성 */
+}
+
+/* 할인율을 계산하기 위한 버튼 속성  */
+.calcResult {
+    width: 48%;
+    height: 15%;
+    
+    display: flex;
+    justify-content: center;         /* 아이템 요소 좌우 위치를 가운데로 배치 */
+    align-items: center;             /* 아이템 요소 상하 위치를 가운데로 배치 */
+
+    font-size: 15px;
+}
+
+/* 할인율을 계산하여 텍스트로 반환하는 클래스 속성 */
+.showResult {
+    width: 48%;
+    height: 10%;
+    
+    display: flex;
+    justify-content: center;         /* 아이템 요소 좌우 위치를 가운데로 배치 */
+    align-items: center;             /* 아이템 요소 상하 위치를 가운데로 배치 */
+
+    font-size: 20px;
+    color: #868e96;
+}

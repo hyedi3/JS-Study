@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>discountPrice_hyedi3</title>
+    
+    <link rel="stylesheet" href="discountPrice.css" />
+    <!-- 구글 무료 폰트 링크-->
+    <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Jua&family=Rubik&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            할인 가격 계산 프로그램
+        </div>
+
+        <div class="mainContainer">
+            <div class="leftBox">
+                <img src="sales.jpg">
+            </div>
+            <div class="rightBox">
+                <div class="currentPrice"> 
+                    <p class="frontInput">원래 가격</p>
+                    <input type="text" id="cPrice">
+                    <p class="backInput">원</p> 
+                </div> 
+                <div class="sale"> 
+                    <p class="frontInput">할인율</p>
+                    <input type="text" id="rate">
+                    <p class="backInput">%</p> 
+                </div> 
+            </div>
+        </div>
+        
+        <div class="footer">
+            <button class="calcResult" onclick="showPrice()">
+                할인 가격 계산하기 
+            </button>
+            <div class="showResult"></div>
+        </div>
+    </div>
+
+    <script src="discountPrice.js"></script>
+</body>
+</html>
