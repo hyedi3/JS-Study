@@ -3,4 +3,5 @@
 <br></br>
 
 ## ✍🏻 목차 
-1. [나이 계산 프로그램 만들기]()
+1. [나이 계산 프로그램 만들기](https://github.com/hyedi3/JS-Study/blob/main/ageCalculation/README.md)
+2. [할인 가격 계산 프로그램 만들기](https://github.com/hyedi3/JS-Study/blob/main/discountPrice/README.md)
