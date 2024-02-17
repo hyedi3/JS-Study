@@ -8,3 +8,4 @@
 1. [나이 계산 프로그램 만들기](https://github.com/hyedi3/JS-Study/blob/main/ageCalculation/README.md)
 2. [할인 가격 계산 프로그램 만들기](https://github.com/hyedi3/JS-Study/blob/main/discountPrice/README.md)
 3. [3의 배수 검수 프로그램 만들기](https://github.com/hyedi3/JS-Study/blob/main/threeMultiple/README.md)
+4. [switchCase를 활용한 관심 세션 선택 프로그램 만들기](https://github.com/hyedi3/JS-Study/blob/main/switchCase/README.md)
