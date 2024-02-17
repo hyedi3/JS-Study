@@ -1,0 +1,45 @@
+body {
+	background-color: #fff;          /* 배경색상은 화이트  */
+	color:#000;                              /* 텍스트 색상은 블랙  */
+
+    width: 100vh;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;    /* 아이템 요소 방향 세로(수직정렬) */
+    justify-content: center;    /* 아이템 요소 좌우 위치를 가운데로 정렬 */
+    align-items: center;         /* 아이템 요소 상하 위치를 가운데로 배치 */
+
+    font-family: 'Do Hyeon', sans-serif;   /*구글 폰트 적용 */
+
+}
+
+/*프롬프트에 값이 입력된 후 화면에 표현될 클래스 속성 지정 */
+.result {
+    width: 90%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: row;           /* 아이템 요소 방향 가로(수평정렬) */
+    justify-content: center;     /* 아이템 요소 좌우 위치를 가운데로 정렬 */
+    align-items: center;          /* 아이템 요소 상하 위치를 가운데로 배치 */
+
+	font-size: 2em;                  /* 2em : 기본 px의 2배 */
+	font-weight: 700;             /* 폰트 굵기 */
+	text-shadow: 1px 2px 1px  #efefef;;
+}
+
+/* 201, 202, 203호가 텍스트로 화면에 출력될 때 속성 지정 */
+.strong {
+    height: 100%;
+    margin: 0px 5px;             /* 상하 좌우 */
+
+    display: flex;
+    flex-direction: row;           /* 아이템 요소 방향 가로(수평정렬) */
+    justify-content: center;     /* 아이템 요소 좌우 위치를 가운데로 정렬 */
+    align-items: center;          /* 아이템 요소 상하 위치를 가운데로 배치 */
+
+	font-size: 1.5em;             /* 2em : 기본 px의 2배 */
+	font-weight: 700;            /* 폰트 굵기 */
+	color: #6C7A89;         /* 청회색  */
+}
